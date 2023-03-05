@@ -1,0 +1,11 @@
+x=input()
+p= map(int,input().split())
+y= input()
+q= map(int,input().split())
+k= set(p)
+n= set(q)
+z= k.symmetric_difference(n)
+lis= list(z)
+lis.sort()
+for i in lis:
+    print(i)
